@@ -1,0 +1,9 @@
+# bash Download Speedcheck script
+
+echo "You Should have yum installed python or python3"
+#  To download speedcheck wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
+echo "Checking Bandwidth Speeds"
+echo "Running bandwidth test"
+sleep 1
+/usr/bin/python3 /root/bandwidth-speedcheck/speedtest-cli --bytes
+echo "Done"
